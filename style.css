@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav{
+    background-image: url("./images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(193, 100%, 96%);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh;
+}
+.button-try{
+    border-radius: 40px;
+    border: none;
+    width: 155px;
+    height: 45px;
+    align-self: right;
+    font-weight: 700;
+    background-color: white;
+    box-shadow: 02px 02px whitesmoke;
+    color: hsl(192, 100%, 9%);
+}
+.button-try:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.685);
+    color: hsla(192, 100%, 9%, 0.74);
+}
+.title-container{
+    display: flex;
+    align-items: center;
+}
+.title{
+    width: 42%;
+    margin: 0px 25px;
+}
+.title h1{
+    width: 70%;
+}
+.title p{
+    text-align: justify;
+}
+.title button{
+    width: 220px;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    background-color:  hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+}
+.title button:hover{
+    cursor: pointer;
+    background-color: hsla(322, 100%, 66%, 0.644);
+}
+.mockup{
+    height: 75vh;
+}
+.card{
+    margin: 35px 30px;
+    padding: 25px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 01px 01px 04px 04px whitesmoke;
+    border: none;
+    border-radius: 15px;
+    width: 93%;
+}
+.card-right{
+    width: 40%;
+}
+.card-img{
+    width: 280px;
+    height: 230px;
+}
+.card-left{
+    width: 40%;
+}
+.container-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.card-bottom{
+    width: 45%;
+    padding: 5%;
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: 02px 02px 0px 50px white;
+    border-radius: 5px;
+}
+.card-bottom button{
+    width: 320px;
+    height: 60px;
+    border-radius: 40px;
+    background-color:  hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    border: none;
+}
+.card-bottom button:hover{
+    cursor: pointer;
+    background-color: hsla(322, 100%, 66%, 0.644);
+}
+.section-footer{
+    background-color: hsl(192, 100%, 9%);
+    height: 65vh;
+    display: grid;
+    align-items: center;
+}
+.footer-logo{
+    justify-self: flex-start;
+    align-self: flex-end;
+    padding: 25px;
+    margin: 50px 0px 10px 80px;
+}
+.svg{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+.pink:hover{
+    cursor: pointer;
+    filter: invert(47%) sepia(77%) saturate(1770%) hue-rotate(295deg) brightness(101%) contrast(104%)
+}
+.mid-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+.address{
+    margin-right: 10px;
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    width: 380px;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+.inner img{
+    width: 18px;
+    height: 18px;
+    padding: 15px;
+}
+.options{
+    display: flex;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    padding: 15px;
+    gap: 15px;
+}
+.copy{
+    display: grid;
+    justify-content: flex-end;
+    font-size: 13px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    padding: 8px;
+}
+
+h1 h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+p{
+   font-weight: 400; 
+}
